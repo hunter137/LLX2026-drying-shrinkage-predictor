@@ -1,0 +1,34 @@
+{
+  "title": "LLX2026 Concrete Drying Shrinkage Prediction",
+  "description": "Python implementation and desktop interface for the LLX2026 concrete drying-shrinkage equation, including individual prediction, CSV batch prediction, development curves, and empirical prediction intervals.",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Liang, Deyu",
+      "affiliation": "School of Transportation and Surveying Engineering, Shenyang Jianzhu University, Shenyang, China"
+    },
+    {
+      "name": "Liu, Jinlong",
+      "affiliation": "School of Civil Engineering, Southeast University, Nanjing, China"
+    },
+    {
+      "name": "Xu, Lei",
+      "affiliation": "Laboratory of Construction Materials, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland"
+    }
+  ],
+  "keywords": [
+    "concrete drying shrinkage",
+    "empirical model",
+    "parameter calibration",
+    "prediction interval"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/hunter137/LLX2026-drying-shrinkage-predictor",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
