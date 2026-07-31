@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llx2026-shrinkage"
+version = "1.0.0"
+description = "Python implementation and desktop interface for the LLX2026 concrete drying-shrinkage equation"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+  {name = "Deyu Liang"},
+  {name = "Jinlong Liu"},
+  {name = "Lei Xu"},
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "Pillow>=10.0",
+  "matplotlib>=3.7",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/hunter137/LLX2026-drying-shrinkage-predictor"
+Repository = "https://github.com/hunter137/LLX2026-drying-shrinkage-predictor"
+Archive = "https://zenodo.org/records/21614015"
+
+[project.scripts]
+llx2026 = "llx2026.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

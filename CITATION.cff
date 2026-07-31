@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository. Zenodo citation details will be added after the record is published."
+title: "LLX2026 Concrete Drying Shrinkage Prediction"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Liang
+    given-names: Deyu
+    affiliation: "School of Transportation and Surveying Engineering, Shenyang Jianzhu University, Shenyang, China"
+  - family-names: Liu
+    given-names: Jinlong
+    affiliation: "School of Civil Engineering, Southeast University, Nanjing, China"
+  - family-names: Xu
+    given-names: Lei
+    affiliation: "Laboratory of Construction Materials, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland"
+repository-code: "https://github.com/hunter137/LLX2026-drying-shrinkage-predictor"
+license: MIT
+keywords:
+  - concrete drying shrinkage
+  - empirical model
+  - parameter calibration
+  - prediction interval

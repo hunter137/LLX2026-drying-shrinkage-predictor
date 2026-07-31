@@ -1,0 +1,13 @@
+name: llx2026
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - numpy>=1.24
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - pillow>=10.0
+  - tk
+  - pip
+  - pip:
+      - -e .
